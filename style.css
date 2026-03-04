@@ -5,16 +5,18 @@ body {
 .hero {
     height: 80vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                url('./src/img/salada-premium.png.webp') center/cover no-repeat;
-}
-
-.promo {
-    background-color: #28a745;
+                url('images/hero.png') center/cover no-repeat;
+    display: flex;
+    align-items: center;
 }
 
 .card img {
     height: 220px;
     object-fit: cover;
+}
+
+.promo {
+    background-color: #28a745;
 }
 
 @media (max-width: 768px) {
