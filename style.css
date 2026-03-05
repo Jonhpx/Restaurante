@@ -1,13 +1,12 @@
 body {
     font-family: 'Quicksand', sans-serif;
+    padding-top: 80px;
 }
 
 .hero {
-    height: 80vh;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                url('images/hero.png') center/cover no-repeat;
-    display: flex;
-    align-items: center;
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('https://images.unsplash.com/photo-1490645935967-10de6ba17061') center/cover no-repeat;
 }
 
 .card img {
@@ -15,13 +14,31 @@ body {
     object-fit: cover;
 }
 
+.card {
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
 .promo {
-    background-color: #28a745;
+    background: linear-gradient(45deg, #28a745, #1e7e34);
 }
 
 @media (max-width: 768px) {
     .hero {
         height: 60vh;
         padding: 20px;
+        text-align: center;
+    }
+
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
     }
 }
