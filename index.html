@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HealthyFood | Restaurante Saudável</title>
 
+    <meta name="description" content="Restaurante saudável com pratos naturais e nutritivos.">
+
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <!-- Bootstrap -->
@@ -18,108 +19,95 @@
 
 <body>
 
-    <!-- Header -->
-    <header class="bg-success text-white p-3 shadow-sm">
-        <div class="container d-flex justify-content-between align-items-center">
-            <h1 class="fs-3 m-0 fw-bold">HealthyFood</h1>
-            <nav>
-                <a href="#menu" class="text-white me-3 text-decoration-none">Cardápio</a>
-                <a href="#sobre" class="text-white me-3 text-decoration-none">Sobre</a>
-                <a href="#contato" class="text-white text-decoration-none">Contato</a>
-            </nav>
-        </div>
-    </header>
+<header class="bg-success text-white p-3 shadow-sm fixed-top">
+    <div class="container d-flex justify-content-between align-items-center">
+        <h1 class="fs-3 m-0 fw-bold">HealthyFood</h1>
+        <nav>
+            <a href="#menu" class="text-white me-3 text-decoration-none">Cardápio</a>
+            <a href="#sobre" class="text-white me-3 text-decoration-none">Sobre</a>
+            <a href="#contato" class="text-white text-decoration-none">Contato</a>
+        </nav>
+    </div>
+</header>
 
-    <!-- Hero -->
-    <section class="hero text-center text-white d-flex align-items-center">
-        <div class="container">
-            <h2 class="fw-bold display-5">Alimente sua vida com saúde!</h2>
-            <p class="lead">Pratos equilibrados, saborosos e preparados com ingredientes naturais.</p>
-            <a href="#menu" class="btn btn-light btn-lg mt-3">Ver Cardápio</a>
-        </div>
-    </section>
+<section class="hero text-white d-flex align-items-center text-center">
+    <div class="container">
+        <h2 class="fw-bold display-5">Alimente sua vida com saúde!</h2>
+        <p class="lead">Pratos equilibrados, naturais e preparados com ingredientes frescos.</p>
+        <a href="#menu" class="btn btn-light btn-lg mt-3">Ver Cardápio</a>
+    </div>
+</section>
 
-    <!-- Menu -->
-    <section id="menu" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4 fw-bold">Nosso Cardápio</h2>
+<section id="menu" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold">Nosso Cardápio</h2>
 
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card shadow-sm h-100">
-                        <img src="images/arroz.png" class="card-img-top" alt="Arroz recheado saudável">
-                        <div class="card-body">
-                            <h5 class="card-title">Arroz Recheado</h5>
-                            <p class="card-text">Arroz integral com legumes frescos e frango desfiado.</p>
-                            <button class="btn btn-success w-100">Pedir</button>
-                        </div>
-                    </div>
-                </div>
+        <div class="row g-4">
 
-                <div class="col-md-4">
-                    <div class="card shadow-sm h-100">
-                        <img src="images/omelete.png" class="card-img-top" alt="Omelete saudável">
-                        <div class="card-body">
-                            <h5 class="card-title">Omelete Natural</h5>
-                            <p class="card-text">Ovos orgânicos com vegetais e ervas frescas.</p>
-                            <button class="btn btn-success w-100">Pedir</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card shadow-sm h-100">
-                        <img src="images/frango.png" class="card-img-top" alt="Frango com legumes">
-                        <div class="card-body">
-                            <h5 class="card-title">Frango com Legumes</h5>
-                            <p class="card-text">Frango grelhado com mix de legumes no vapor.</p>
-                            <button class="btn btn-success w-100">Pedir</button>
-                        </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" class="card-img-top" alt="Prato saudável">
+                    <div class="card-body">
+                        <h5 class="card-title">Arroz Integral Fit</h5>
+                        <p class="card-text">Arroz integral com legumes frescos e frango grelhado.</p>
+                        <a href="#" class="btn btn-success w-100">Pedir</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Sobre -->
-    <section id="sobre" class="bg-light py-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <h2 class="fw-bold">Frango Cremoso</h2>
-                    <p>
-                        Comida saudável feita com ingredientes frescos e naturais,
-                        sem conservantes ou corantes artificiais.
-                    </p>
-                    <p>
-                        Ideal para quem busca uma alimentação equilibrada,
-                        nutritiva e cheia de sabor.
-                    </p>
-                </div>
-                <div class="col-md-6 text-center">
-                    <img src="images/frango-cremoso.png" class="img-fluid rounded shadow" alt="Frango cremoso saudável">
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd" class="card-img-top" alt="Salada saudável">
+                    <div class="card-body">
+                        <h5 class="card-title">Salada Natural</h5>
+                        <p class="card-text">Mix de folhas, legumes e proteína magra.</p>
+                        <a href="#" class="btn btn-success w-100">Pedir</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Promo -->
-    <section class="promo text-white text-center py-5">
-        <div class="container">
-            <h2 class="fw-bold">Comida em Desconto</h2>
-            <p class="lead">
-                Frango grelhado, legumes frescos e castanhas crocantes.
-                Uma explosão de sabor e saúde no seu prato!
-            </p>
-            <button class="btn btn-light btn-lg">Aproveitar Oferta</button>
-        </div>
-    </section>
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="https://images.unsplash.com/photo-1604908176997-4317a5e4b0d5" class="card-img-top" alt="Frango com legumes">
+                    <div class="card-body">
+                        <h5 class="card-title">Frango com Legumes</h5>
+                        <p class="card-text">Frango grelhado com legumes no vapor.</p>
+                        <a href="#" class="btn btn-success w-100">Pedir</a>
+                    </div>
+                </div>
+            </div>
 
-    <!-- Footer -->
-    <footer id="contato" class="bg-dark text-white text-center p-4">
-        <p class="mb-1">© 2026 HealthyFood</p>
-        <p class="mb-0">Contato: contato@healthyfood.com</p>
-    </footer>
+        </div>
+    </div>
+</section>
+
+<section id="sobre" class="bg-light py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="fw-bold">Sobre Nós</h2>
+                <p>Trabalhamos com ingredientes naturais, frescos e selecionados.</p>
+                <p>Nosso objetivo é oferecer refeições equilibradas e saborosas para o seu dia a dia.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2" class="img-fluid rounded shadow" alt="Comida saudável">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="promo text-white text-center py-5">
+    <div class="container">
+        <h2 class="fw-bold">Promoção Especial</h2>
+        <p class="lead">Desconto de 20% em todos os pratos fitness!</p>
+        <a href="#" class="btn btn-light btn-lg">Aproveitar Oferta</a>
+    </div>
+</section>
+
+<footer id="contato" class="bg-dark text-white text-center p-4">
+    <p class="mb-1">© 2026 HealthyFood</p>
+    <p class="mb-0">Contato: contato@healthyfood.com</p>
+</footer>
 
 </body>
 </html>
